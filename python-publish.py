@@ -2,11 +2,7 @@ import time
 from pubnub.pnconfiguration import PNConfiguration
 from pubnub.pubnub import PubNub
 
-publish_key = 'pub-c-e07b6085-b36b-4caa-9e32-abda06f7f47c'
-
-subscribe_key = 'sub-c-ad06a870-54f8-11e9-93f3-8ed1bbcba485'
-
-secret_key = 'sec-c-MjJmZmJmZmQtZDZiNS00NTVkLWIyYmQtMjg0NzczZjE5M2U0'
+from .pubnub_data import publish_key, subscribe_key, channel_name
 
 pnconfig = PNConfiguration()
 pnconfig.publish_key = publish_key

@@ -1,11 +1,7 @@
 import paho.mqtt.client as mqtt
 import json
 
-publish_key = 'pub-c-ce2f1ab4-1cf1-45ba-9042-47fe5181375b'
-
-subscribe_key = 'sub-c-6a92f46c-54da-11e9-bacd-ba825bfe5cc2'
-
-secret_key = 'sec-c-MjJmZmJmZmQtZDZiNS00NTVkLWIyYmQtMjg0NzczZjE5M2U0'
+from .pubnub_data import publish_key, subscribe_key, channel_name
 
 client_uuid = "6e19d4d9-1037-435e-814f-ea242bf07a35"
 
