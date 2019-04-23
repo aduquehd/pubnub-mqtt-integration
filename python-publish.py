@@ -2,7 +2,7 @@ import time
 from pubnub.pnconfiguration import PNConfiguration
 from pubnub.pubnub import PubNub
 
-from .pubnub_data import publish_key, subscribe_key, channel_name
+from pubnub_data import publish_key, subscribe_key, channel_name
 
 pnconfig = PNConfiguration()
 pnconfig.publish_key = publish_key

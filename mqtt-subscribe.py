@@ -1,6 +1,6 @@
 import paho.mqtt.client as mqtt
 
-from .pubnub_data import publish_key, subscribe_key, channel_name
+from pubnub_data import publish_key, subscribe_key, channel_name
 
 client_uuid = 'MacDevice1'
 
